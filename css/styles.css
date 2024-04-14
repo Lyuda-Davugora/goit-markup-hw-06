@@ -509,6 +509,10 @@ color: #4d5ae5;
  width: 264px;
 }
 
+.footer-container-two {
+margin-right: auto;
+}
+
 .social-mane {
 font-weight: 500;
 font-size: 16px;
@@ -553,7 +557,7 @@ fill: #f4f4fd;
 background-color: #31D0AA;
 }
 
-.footer-container-two {
+.footer-container-tree {
 margin-right: auto;
 }
 
@@ -574,7 +578,6 @@ gap: 24px;
 
 .footer-form-input {
 display: flex;
-padding-top: 8px;
 padding-left: 16px; 
 
 font-weight: 400;
@@ -590,6 +593,7 @@ height: 40px;
 
 background: transparent;
 box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .footer-button-sub {
@@ -645,7 +649,6 @@ opacity: 1;
 pointer-events: auto;
 visibility: visible;
 }
-
 
 .modal {
 width: 408px;
