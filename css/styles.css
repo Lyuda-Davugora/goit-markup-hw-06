@@ -892,6 +892,10 @@ margin: 0 auto 72px;
 display: none;
   }
 
+  .feature-item {
+display: flex;
+}
+
 .feature-subtitle {
 font-weight: 700;
 font-size: 36px;
