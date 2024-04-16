@@ -876,7 +876,7 @@ background-color: #404bbf;
   .page-title {
 font-size: 36px;
 line-height: 1.11;
-
+margin: 0 auto 72px;
   }
 
   .features {
