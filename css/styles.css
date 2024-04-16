@@ -880,45 +880,26 @@ margin: 0 auto 72px;
   }
 
   .features {
-    padding-top: 50px;
-    padding-bottom: 50px;
+    padding-top: 96px;
+    padding-bottom: 96px;
   }
 
   .features-list {
-    gap: 44px 88px;
+    gap: 72px;
   }
 
-  .features-item {
-    width: calc((100% - 88px) / 2);
+  .feature-one {
+display: none;
   }
 
-  .taste {
-    padding-top: 100px;
-    padding-bottom: 50px;
-  }
+.feature-subtitle {
+font-weight: 700;
+font-size: 36px;
+line-height: 1.11;
+}
 
-  .taste-text {
-    margin-bottom: 50px;
-  }
-
-  .taste-list {
-    gap: 32px;
-  }
-
-  .taste-item {
-    width: calc((100% - 32px) / 2);
-  }
-
-  .made {
-    padding-top: 50px;
-    padding-bottom: 50px;
-  }
-
-  .made-content {
-    padding: 32px;
-  }
-
-  .made-subtitle {
-    margin-bottom: 28px;
-  }
+.feature-item-title {
+font-weight: 500;
+font-size: 16px;
+line-height: 1.5;
 }
