@@ -885,6 +885,7 @@ margin: 0 auto 72px;
   }
 
   .features-list {
+    display: flex;
     gap: 72px;
   }
 
@@ -892,7 +893,8 @@ margin: 0 auto 72px;
 display: none;
   }
 
-  .feature-item {
+  .feature-item,
+  .feature-item-title {
 display: flex;
 }
 
