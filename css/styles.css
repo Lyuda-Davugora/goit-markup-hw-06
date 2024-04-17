@@ -895,17 +895,23 @@ display: none;
 
   .feature-item,
   .feature-item-title {
-display: flex;
+width: calc((100% - 72px) / 4);
 }
 
 .feature-subtitle {
+ display: flex;
 font-weight: 700;
 font-size: 36px;
 line-height: 1.11;
+letter-spacing: 0.02em;
+text-align: center;
 }
 
 .feature-item-title {
+display: flex;
 font-weight: 500;
 font-size: 16px;
 line-height: 1.5;
+letter-spacing: 0.02em;
+color: #434455;
 }
