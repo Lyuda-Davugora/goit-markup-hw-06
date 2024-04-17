@@ -880,8 +880,7 @@ margin: 0 auto 72px;
   }
 
   .features {
-    padding-top: 96px;
-    padding-bottom: 96px;
+    padding: 96px 16px;
   }
 
   .features-list {
