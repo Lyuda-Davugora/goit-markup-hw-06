@@ -50,9 +50,9 @@ img {
   }
 }
 
-@media (min-width: 1168px) {
+@media (min-width: 1158px) {
   .container {
-    max-width: 1168px;
+    max-width: 1158px;
     padding-left: 15px;
     padding-right: 15px;
   }
@@ -194,7 +194,7 @@ header .container {
   }
 }
 
-@media (min-width: 1168px) {
+@media (min-width: 1158px) {
   .header-address-list {
     flex-direction: row;
     gap: 40px;
