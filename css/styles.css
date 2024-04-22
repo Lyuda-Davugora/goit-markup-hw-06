@@ -799,7 +799,7 @@ header .container {
 }
 
 @media (min-width: 1158px) {
-  .container-logo-and-socsal {
+  .container-logo-and-social {
     flex-direction: row;
     margin-bottom: 0;
   }
