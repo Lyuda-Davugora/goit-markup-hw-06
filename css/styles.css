@@ -170,6 +170,7 @@ header .container {
   .list-nav {
     display: flex;
   }
+  
   .header-address {
     display: flex;
     padding: 0;
@@ -317,7 +318,6 @@ header .container {
     font-size: 56px;
     line-height: 1.07;
     margin-bottom: 48px;
-    
   }
 }
 
@@ -501,7 +501,7 @@ header .container {
   }
 
   .our-team {
-    background-color: #f4f4fd;
+    background-color: #f4f4fd; 
   }
 
   .container-our-team {
@@ -511,8 +511,10 @@ header .container {
 }
 
 @media (min-width: 1158px) {
-  .our-team {
-  }
+  .container-our-team {
+  padding-left: 15px;
+  padding-right: 15px;
+ }
 }
 
 /* our portfolio */
@@ -758,7 +760,6 @@ header .container {
     padding-bottom: 96px;
     padding-left: 92px;
     padding-right: 92px;
-     align-items: center;
   }
 
   .container-footer {
