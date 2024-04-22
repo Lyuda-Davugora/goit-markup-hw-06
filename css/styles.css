@@ -758,6 +758,7 @@ header .container {
     padding-bottom: 96px;
     padding-left: 92px;
     padding-right: 92px;
+     align-items: center;
   }
 
   .container-footer {
@@ -839,7 +840,8 @@ header .container {
 }
 
 .modal-overlay.is-open {
-  opacity: 1;
+ opacity: 1;
+  visibility: visible;
   pointer-events: auto;
 }
 
@@ -1107,7 +1109,8 @@ input::placeholder {
 }
 
 .modal-overlay-mobile-menu.is-open {
-  opacity: 1;
+ opacity: 1;
+  visibility: visible;
   pointer-events: auto;
 }
 
