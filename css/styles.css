@@ -1261,3 +1261,9 @@ opacity: 0;
 .social-link-list-mobile .link:focus {
   background-color: #31d0aa;
 }
+
+@media (min-width: 768px) {
+.modal-overlay-mobile-menu {
+  display: none;
+  }
+}
