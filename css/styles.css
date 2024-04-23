@@ -335,7 +335,7 @@ header .container {
     max-width: 496px;
     font-size: 56px;
     line-height: 1.07;
-    margin-bottom: 48px;
+    margin-bottom: 36px;
   }
 }
 
@@ -344,6 +344,10 @@ header .container {
     padding-top: 188px;
     padding-bottom: 188px;
     max-width: 1440px;
+  }
+  
+ .title-banner {
+    margin-bottom: 48px;
   }
 }
 
